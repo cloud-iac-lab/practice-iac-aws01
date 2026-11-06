@@ -1,0 +1,17 @@
+# Archivos de estado e inicialización de Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.lock.hcl
+
+# Archivos del sistema y de editores
+.DS_Store
+.idea/
+.vscode/
+
+# Credenciales locales (NUNCA commitar)
+.env
+
+# Dependencias Node.js
+**/node_modules/
